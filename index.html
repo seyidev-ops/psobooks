@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="icon" href="favicon.webp">
+<link rel="icon" href="pastor-sarah-omakwu.webp">
+<link rel="preload" as="image" href="covers/big-front.webp">
 <title>Pastor Sarah Omakwu Books</title>
 <meta name="description" content="The books of Pastor Sarah Omakwu, Senior Pastor of Family Worship Centre, Abuja: The Big Is in the Small, Living Ready, Walking on the Straight and Narrow, and Knowing Jesus For Yourself. Sermons from 2004 to 2026, now in print.">
 <meta name="keywords" content="Pastor Sarah Omakwu, Sarah Omakwu books, Family Worship Centre Abuja, The Big Is in the Small, Living Ready, Walking on the Straight and Narrow, Knowing Jesus For Yourself, Christian books Nigeria, God's Errand Girl">
@@ -27,10 +28,10 @@
 {"@type":"Person","@id":"https://www.pastorsarahomakwubooks.com/#author","name":"Sarah Omakwu","honorificPrefix":"Pastor","alternateName":"God's Errand Girl","jobTitle":"Senior Pastor, Family Worship Centre, Abuja; President, Family Ministries International","birthPlace":"Kaduna, Nigeria","worksFor":{"@type":"Organization","name":"Family Worship Centre","address":{"@type":"PostalAddress","addressLocality":"Wuye District, Abuja","addressCountry":"NG"}}},
 {"@type":"WebSite","@id":"https://www.pastorsarahomakwubooks.com/#site","url":"https://www.pastorsarahomakwubooks.com/","name":"Pastor Sarah Omakwu Books","inLanguage":"en-NG","publisher":{"@id":"https://www.pastorsarahomakwubooks.com/#author"}},
 {"@type":"BookSeries","name":"The Pastor Sarah Omakwu Teaching Series","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"hasPart":[
-{"@type":"Book","position":1,"name":"The Big Is in the Small","alternativeHeadline":"Faithfulness, Wise Stewardship, and an Inheritance for Your Children's Children","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":97,"inLanguage":"en","genre":"Christian living","url":"https://www.pastorsarahomakwubooks.com/#big"},
-{"@type":"Book","position":2,"name":"Living Ready","alternativeHeadline":"Lessons from Abraham for Those Who Wait for the City","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":117,"inLanguage":"en","genre":"Christian living","url":"https://www.pastorsarahomakwubooks.com/#ready"},
-{"@type":"Book","position":3,"name":"Walking on the Straight and Narrow","alternativeHeadline":"Choosing the Narrow Gate in the Last Days","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":89,"inLanguage":"en","genre":"Christian discipleship","url":"https://www.pastorsarahomakwubooks.com/#narrow"},
-{"@type":"Book","position":4,"name":"Knowing Jesus For Yourself","alternativeHeadline":"Laying a Biblical Foundation","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":52,"inLanguage":"en","genre":"Christian discipleship","url":"https://www.pastorsarahomakwubooks.com/#knowing"}]},
+{"@type":"Book","position":1,"name":"The Big Is in the Small","alternativeHeadline":"Faithfulness, Wise Stewardship, and an Inheritance for Your Children's Children","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":97,"inLanguage":"en","genre":"Christian living","url":"https://www.pastorsarahomakwubooks.com/#big","image":"https://www.pastorsarahomakwubooks.com/covers/big-front.webp"},
+{"@type":"Book","position":2,"name":"Living Ready","alternativeHeadline":"Lessons from Abraham for Those Who Wait for the City","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":117,"inLanguage":"en","genre":"Christian living","url":"https://www.pastorsarahomakwubooks.com/#ready","image":"https://www.pastorsarahomakwubooks.com/covers/ready-front.webp"},
+{"@type":"Book","position":3,"name":"Walking on the Straight and Narrow","alternativeHeadline":"Choosing the Narrow Gate in the Last Days","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":89,"inLanguage":"en","genre":"Christian discipleship","url":"https://www.pastorsarahomakwubooks.com/#narrow","image":"https://www.pastorsarahomakwubooks.com/covers/narrow-front.webp"},
+{"@type":"Book","position":4,"name":"Knowing Jesus For Yourself","alternativeHeadline":"Laying a Biblical Foundation","author":{"@id":"https://www.pastorsarahomakwubooks.com/#author"},"numberOfPages":52,"inLanguage":"en","genre":"Christian discipleship","url":"https://www.pastorsarahomakwubooks.com/#knowing","image":"https://www.pastorsarahomakwubooks.com/covers/knowing-front.webp"}]},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Are these books transcripts of the sermons?","acceptedAnswer":{"@type":"Answer","text":"No. Each book is drawn from the original sermon recordings and edited into chapters for readers, keeping Pastor Sarah's own voice, stories and Nigerian expressions."}},
 {"@type":"Question","name":"In what order should I read them?","acceptedAnswer":{"@type":"Answer","text":"Each book stands alone. Many readers begin with Knowing Jesus For Yourself because it lays the foundation, then go on to the others."}},
@@ -161,6 +162,10 @@ a{color:inherit}
 .fc-out .cs{display:block;font:500 9.5px/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;opacity:.85;position:relative;z-index:1;margin-top:10px}
 .fc-out .ca{font:600 11px var(--f-body);letter-spacing:.2em;text-transform:uppercase;position:relative;z-index:1}
 .fc-out .art{position:absolute;inset:0}
+.cv{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;display:block}
+.has-img{padding:0!important;background:#EFE7DC}
+.bc.has-img{box-shadow:none}
+.bc.has-img::after{content:"";position:absolute;inset:0;box-shadow:inset -6px 0 10px -4px rgba(0,0,0,.3);pointer-events:none}
 .ledge{display:block;align-self:stretch;height:12px;margin:30px calc(-1 * clamp(9px,1.5vw,20px)) 0;border-radius:2px;background:linear-gradient(var(--paper-2),var(--line));box-shadow:0 16px 24px -12px rgba(40,15,25,.35)}
 .room .ledge{margin-inline:10%}
 .book-steps{display:flex;gap:6px;justify-content:center;margin-top:16px}
@@ -169,23 +174,6 @@ a{color:inherit}
 .slot h3{font-size:22px}
 .slot .mono{color:var(--ink-2)}
 .slot .hint{font-size:12.5px;color:var(--ink-2)}
-
-/* cover art per book */
-.c-big{background:#1F3A2E;color:#F2E9D6}
-.c-big .art::before{content:"";position:absolute;left:50%;top:60%;width:10px;height:10px;margin:-5px;border-radius:50%;background:#D7B25B;box-shadow:0 0 0 18px rgba(215,178,91,.16),0 0 0 44px rgba(215,178,91,.1),0 0 0 78px rgba(215,178,91,.06),0 0 0 120px rgba(215,178,91,.04);animation:grow 5s ease-in-out infinite}
-@keyframes grow{50%{transform:scale(1.25)}}
-.c-ready{background:linear-gradient(160deg,#7A4A2E,#4C2B19);color:#F6E6D6}
-.c-ready .art{border:1.5px dashed rgba(246,230,214,.45);inset:5%;border-radius:4px}
-.c-ready .art::before{content:"";position:absolute;left:30%;right:30%;top:-26px;height:46px;border:6px solid #3A2013;border-bottom:0;border-radius:30px 30px 0 0}
-.c-ready .ct{color:#E7A07D}
-.c-narrow{background:#18263A;color:#EEF1F6}
-.c-narrow .art::before{content:"";position:absolute;left:50%;bottom:0;width:62%;height:62%;transform:translateX(-50%);background:linear-gradient(to top,rgba(238,241,246,.5),rgba(238,241,246,0));clip-path:polygon(0 100%,48% 0,52% 0,100% 100%)}
-.c-narrow .art::after{content:"";position:absolute;left:50%;top:30%;width:3px;height:8px;margin-left:-1.5px;background:#F4D27A;box-shadow:0 0 18px 6px rgba(244,210,122,.5);animation:twinkle 3s ease-in-out infinite}
-@keyframes twinkle{50%{opacity:.4}}
-.c-knowing{background:radial-gradient(120% 70% at 50% 0%,#9B3A5E,#4A1530 55%,#2B0B1C);color:#F6E3C6}
-.c-knowing .art::before{content:"";position:absolute;left:50%;top:-20%;width:140%;height:80%;transform:translateX(-50%);background:conic-gradient(from 180deg at 50% 0%,transparent 40%,rgba(246,227,198,.18) 47%,transparent 50%,rgba(246,227,198,.14) 53%,transparent 60%);animation:rays 9s ease-in-out infinite alternate}
-@keyframes rays{to{transform:translateX(-50%) rotate(6deg)}}
-.c-knowing .ct{color:#F2C97E}
 
 /* finder */
 .finder{padding-block:90px;background:var(--paper-2);border-block:1px solid var(--line)}
@@ -460,7 +448,7 @@ footer{padding-block:56px 40px;border-top:1px solid var(--line);font-size:14px;c
 
 <script>
 const BOOKS=[
- {id:"big",n:1,cls:"c-big",title:"The Big Is in the Small",sub:"Faithfulness, Wise Stewardship, and an Inheritance for Your Children's Children",
+ {id:"big",n:1,cls:"c-big",front:"big-front",back:"big-back",spine:["#1D3A21","#F3EBD9"],title:"The Big Is in the Small",sub:"Faithfulness, Wise Stewardship, and an Inheritance for Your Children's Children",
   preached:"Apr – May 2011",recs:"4 sermons",chap:10,pages:97,
   blurb:["The big you are praying for is already hidden in the small you hold. In four Sunday messages, Pastor Sarah walks from the parable of the talents to the price of land in Abuja, and from her own $200 salary in America to a vision for four generations.",
   "It is warm, funny and blunt about money: what you waste, what you save, and how a believer moves from hand-to-mouth living to an inheritance for children's children."],
@@ -468,7 +456,7 @@ const BOOKS=[
   quote:"There is no play money. There is no blowing money. There is no small money. Every money is a seed.",
   inside:"As long as you keep squandering what you have, the big will not come.",
   need:"I want to steward money and grow God's way"},
- {id:"ready",n:2,cls:"c-ready",title:"Living Ready",sub:"Lessons from Abraham for Those Who Wait for the City",
+ {id:"ready",n:2,cls:"c-ready",front:"ready-front",back:"ready-back",spine:["#A9573A","#FBF1E6"],title:"Living Ready",sub:"Lessons from Abraham for Those Who Wait for the City",
   preached:"Jan – Feb 2004",recs:"7 sermons",chap:14,pages:117,
   blurb:["Jesus is coming, and nobody knows when. So do not wait to get ready. Live ready, with your suitcase packed. Through the life of Abraham, this book shows how to look up, hear God daily, obey at once and keep a faith that does not depend on outcomes.",
   "Pastor Sarah preached this series eleven months after the death of her husband, Pastor Ina. Her grief and her refusal to stop run through every chapter, and they make it the most personal book in the series."],
@@ -476,7 +464,7 @@ const BOOKS=[
   quote:"To be ready is an activity. It's an event. But to live ready is a life.",
   inside:"I can use this pain to be powerful or to be pitiful. I choose to be powerful.",
   need:"I'm waiting on a promise, or grieving a loss"},
- {id:"narrow",n:3,cls:"c-narrow",title:"Walking on the Straight and Narrow",sub:"Choosing the Narrow Gate in the Last Days",
+ {id:"narrow",n:3,cls:"c-narrow",front:"narrow-front",back:"narrow-back",spine:["#13294B","#EAF2FB"],title:"Walking on the Straight and Narrow",sub:"Choosing the Narrow Gate in the Last Days",
   preached:"January 2018",recs:"4 sermons",chap:10,pages:89,
   blurb:["Everybody is preaching open doors. Pastor Sarah preached the narrow gate. This is her call to a disciplined, heaven-minded discipleship: live like a pilgrim, deny yourself, take up your cross daily and refuse to love the world.",
   "It is her most searching book, and also one of her funniest. You will meet the “Broadway Christian,” the cover of heaven, and a pastor who simply wants to carry you there."],
@@ -484,7 +472,7 @@ const BOOKS=[
   quote:"Grace does not make you walk anyhow.",
   inside:"I have no need to be on the cover of anything. I just want to be on the cover of heaven.",
   need:"I've drifted and want to walk straight again"},
- {id:"knowing",n:4,cls:"c-knowing",title:"Knowing Jesus For Yourself",sub:"Laying a Biblical Foundation",
+ {id:"knowing",n:4,cls:"c-knowing",front:"knowing-front",back:"knowing-back",spine:["#7C5218","#FFF3DA"],title:"Knowing Jesus For Yourself",sub:"Laying a Biblical Foundation",
   preached:"January 2026",recs:"2 sermons",chap:9,pages:52,
   blurb:["Knowing about Jesus is not the same as knowing Him. In the two messages that opened 2026, Pastor Sarah lays eight foundations for a daily, personal relationship with Christ, the kind that changes your character, your guidance and your peace.",
   "It is the shortest book in the series and the simplest by design. As she says, she wanted to make the gospel so simple that you never forget it."],
@@ -503,21 +491,22 @@ const QUOTES=[
  ["In the real faith of Jesus Christ, the higher you go, the simpler you become.","Walking on the Straight and Narrow · 2018"],
  ["There is peace in your room. Question is, are you using it?","Knowing Jesus For Yourself · 2026"]
 ];
+const COVERS={"big-back": "covers/big-back.webp", "big-front": "covers/big-front.webp", "knowing-back": "covers/knowing-back.webp", "knowing-front": "covers/knowing-front.webp", "narrow-back": "covers/narrow-back.webp", "narrow-front": "covers/narrow-front.webp", "ready-back": "covers/ready-back.webp", "ready-front": "covers/ready-front.webp"};
 const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const bookEl=(b,steps)=>`<div class="bookwrap"><button class="book" type="button" data-s="front" data-id="${b.id}" style="--fd:${-b.n*1.4}s;--d:${Math.round(12+b.pages/10)}px" aria-label="${esc(b.title)}: showing the front cover. Press to turn.">
   <span class="float"><span class="tilt"><span class="obj">
     <span class="face page"><small>Inside · Book ${b.n}</small>“${esc(b.inside)}”<em>Pastor Sarah Omakwu</em></span>
     <span class="edge"></span>
-    <span class="spine ${b.cls}"><span>${esc(b.title)} · Omakwu</span></span>
-    <span class="face bc ${b.cls}">
+    <span class="spine" style="background:${b.spine[0]};color:${b.spine[1]}"><span>${esc(b.title)} · Omakwu</span></span>
+    <span class="face bc ${b.back?"has-img":b.cls}">${b.back?`<img class="cv" src="${COVERS[b.back]}" alt="Back cover of ${esc(b.title)} by Pastor Sarah Omakwu" width="640" height="960" loading="lazy" decoding="async">`:`
       <span class="bq">“${esc(b.quote)}”</span>
       <p>${esc(b.blurb[0].split(". ").slice(0,2).join(". "))}.</p>
-      <span class="bm"><span>Book ${b.n} of 4<br>Sarah Omakwu</span><span class="bar" aria-hidden="true"></span></span>
+      <span class="bm"><span>Book ${b.n} of 4<br>Sarah Omakwu</span><span class="bar" aria-hidden="true"></span></span>`}
     </span>
     <span class="fc">
-      <span class="face fc-out ${b.cls}"><span class="art"></span>
+      <span class="face fc-out ${b.front?"has-img":b.cls}">${b.front?`<img class="cv" src="${COVERS[b.front]}" alt="Front cover of ${esc(b.title)}: ${esc(b.sub)}, by Pastor Sarah Omakwu" width="640" height="960" decoding="async">`:`<span class="art"></span>
         <span><span class="ct">${esc(b.title)}</span><span class="cs">${esc(b.sub)}</span></span>
-        <span class="ca">Sarah Omakwu</span></span>
+        <span class="ca">Pastor Sarah Omakwu</span>`}</span>
       <span class="face fc-in"><small>Preached ${b.preached}</small></span>
     </span>
   </span></span></span></button><span class="ledge" aria-hidden="true"></span>

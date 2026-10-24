@@ -11,11 +11,11 @@ A single static page (`index.html`) with no build step. Deploy with GitHub Pages
 
 ## Files
 - `index.html` — the site, with SEO meta, Open Graph/Twitter cards and JSON-LD (Person, BookSeries, FAQPage)
-- `pastor-sarah-omakwu.webp` — author portrait
+- `pastor-sarah-omakwu.webp` — author portrait (also the favicon)
+- `covers/` — official front and back covers for all four books
 - `og-image.jpg` — 1200×630 social share image
-- `favicon.webp`, `robots.txt`, `sitemap.xml`
+- `robots.txt`, `sitemap.xml` (includes the four front covers for image search)
 
 ## Before launch
 - Replace `https://www.pastorsarahomakwubooks.com` with the real domain in `index.html`, `robots.txt` and `sitemap.xml`.
 - Connect the request form to a destination (WhatsApp, email or a form service); it currently confirms on screen only.
-- Swap the code-drawn covers for the official cover images when ready.
